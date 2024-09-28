@@ -15,6 +15,7 @@
     "@angular/router": "~18.2.6",
     "@ng-rspack/nx": "0.0.22",
     "rxjs": "~7.8.1",
+    "sass-loader": "^16.0.2",
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
@@ -52,5 +53,6 @@
     "tslib": "2.7.0",
     "typescript": "~5.5.4",
     "typescript-eslint": "8.7.0"
-  }
+  },
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }
