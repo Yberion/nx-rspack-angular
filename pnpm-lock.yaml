@@ -33,8 +33,8 @@ importers:
         specifier: ~18.2.6
         version: 18.2.6(@angular/common@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10))(@angular/platform-browser@18.2.6(@angular/animations@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(@angular/common@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10))(rxjs@7.8.1))(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(rxjs@7.8.1)
       '@ng-rspack/nx':
-        specifier: 0.0.22
-        version: 0.0.22(5p2t4cqoeni2zclr7lytccwwaq)
+        specifier: 0.0.23
+        version: 0.0.23(5p2t4cqoeni2zclr7lytccwwaq)
       rxjs:
         specifier: ~7.8.1
         version: 7.8.1
@@ -1953,15 +1953,15 @@ packages:
   '@napi-rs/wasm-runtime@0.2.4':
     resolution: {integrity: sha512-9zESzOO5aDByvhIAsOy9TbpZ0Ur2AJbUI7UT73kcUTS2mxAMHOBaa1st/jAymNoCtvrit99kkzT1FZuXVcgfIQ==}
 
-  '@ng-rspack/build@0.0.22':
-    resolution: {integrity: sha512-GYybBX76TslXjYTQmsCW6eudihpwPOImr2ANex/h6fHL0IHUP7QUP1Dtn+Xq52qaDU9+DrGS+rKc6SopIsdMAQ==}
+  '@ng-rspack/build@0.0.23':
+    resolution: {integrity: sha512-n4XU7I1jpIGe548w5hk9uZlkD+30udhTn/tZ5nKdTt9kpN4LTHQV0BdL9crkFqj9uBza93Bu3o/4qaBCadmBJQ==}
     peerDependencies:
       '@angular/build': ^18.2.5
       '@rspack/core': ^1.0.5
       sass: ^1.79.3
 
-  '@ng-rspack/nx@0.0.22':
-    resolution: {integrity: sha512-SA9XvVc+pfuLGKlJcPmeUH2FBOgxw99mIwv1pvk2/eNNuW7/JvmP8IzFooMcv2IWToXf7IkxGBd0DQGY2nP00Q==}
+  '@ng-rspack/nx@0.0.23':
+    resolution: {integrity: sha512-KP4CCC4XQH8DirHvhP6YEaM99UALcU8i+HM0IELcb+jPzFn0Yfw0QqEJT9Ej4EpeAkkgvLVUvKvCpRIzN5ve9g==}
 
   '@ngtools/webpack@18.2.6':
     resolution: {integrity: sha512-7HwOPE1EOgcHnpt4brSiT8G2CcXB50G0+CbCBaKGy4LYCG3Y3mrlzF5Fup9HvMJ6Tzqd62RqzpKKYBiGUT7hxg==}
@@ -9469,7 +9469,7 @@ snapshots:
       '@emnapi/runtime': 1.2.0
       '@tybys/wasm-util': 0.9.0
 
-  '@ng-rspack/build@0.0.22(@angular/build@18.2.6(@angular/compiler-cli@18.2.6(@angular/compiler@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@22.7.4)(chokidar@3.6.0)(less@4.1.3)(postcss@8.4.47)(sass-embedded@1.79.4)(stylus@0.59.0)(terser@5.31.6)(typescript@5.5.4))(@rspack/core@1.0.7(@swc/helpers@0.5.13))(sass@1.79.4)(webpack@5.95.0(@swc/core@1.7.26(@swc/helpers@0.5.13)))':
+  '@ng-rspack/build@0.0.23(@angular/build@18.2.6(@angular/compiler-cli@18.2.6(@angular/compiler@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@22.7.4)(chokidar@3.6.0)(less@4.1.3)(postcss@8.4.47)(sass-embedded@1.79.4)(stylus@0.59.0)(terser@5.31.6)(typescript@5.5.4))(@rspack/core@1.0.7(@swc/helpers@0.5.13))(sass@1.79.4)(webpack@5.95.0(@swc/core@1.7.26(@swc/helpers@0.5.13)))':
     dependencies:
       '@angular/build': 18.2.6(@angular/compiler-cli@18.2.6(@angular/compiler@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@22.7.4)(chokidar@3.6.0)(less@4.1.3)(postcss@8.4.47)(sass-embedded@1.79.4)(stylus@0.59.0)(terser@5.31.6)(typescript@5.5.4)
       '@rspack/core': 1.0.7(@swc/helpers@0.5.13)
@@ -9481,9 +9481,9 @@ snapshots:
       - node-sass
       - webpack
 
-  '@ng-rspack/nx@0.0.22(5p2t4cqoeni2zclr7lytccwwaq)':
+  '@ng-rspack/nx@0.0.23(5p2t4cqoeni2zclr7lytccwwaq)':
     dependencies:
-      '@ng-rspack/build': 0.0.22(@angular/build@18.2.6(@angular/compiler-cli@18.2.6(@angular/compiler@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@22.7.4)(chokidar@3.6.0)(less@4.1.3)(postcss@8.4.47)(sass-embedded@1.79.4)(stylus@0.59.0)(terser@5.31.6)(typescript@5.5.4))(@rspack/core@1.0.7(@swc/helpers@0.5.13))(sass@1.79.4)(webpack@5.95.0(@swc/core@1.7.26(@swc/helpers@0.5.13)))
+      '@ng-rspack/build': 0.0.23(@angular/build@18.2.6(@angular/compiler-cli@18.2.6(@angular/compiler@18.2.6(@angular/core@18.2.6(rxjs@7.8.1)(zone.js@0.14.10)))(typescript@5.5.4))(@types/node@22.7.4)(chokidar@3.6.0)(less@4.1.3)(postcss@8.4.47)(sass-embedded@1.79.4)(stylus@0.59.0)(terser@5.31.6)(typescript@5.5.4))(@rspack/core@1.0.7(@swc/helpers@0.5.13))(sass@1.79.4)(webpack@5.95.0(@swc/core@1.7.26(@swc/helpers@0.5.13)))
       '@nx/angular': 19.8.0(qe7bvshpalg75nf547lnn46fbm)
       '@nx/devkit': 19.8.0(nx@19.8.2(@swc-node/register@1.10.9(@swc/core@1.7.26(@swc/helpers@0.5.13))(@swc/types@0.1.12)(typescript@5.5.4))(@swc/core@1.7.26(@swc/helpers@0.5.13)))
       '@rspack/core': 1.0.7(@swc/helpers@0.5.13)

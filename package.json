@@ -13,7 +13,7 @@
     "@angular/platform-browser": "~18.2.6",
     "@angular/platform-browser-dynamic": "~18.2.6",
     "@angular/router": "~18.2.6",
-    "@ng-rspack/nx": "0.0.22",
+    "@ng-rspack/nx": "0.0.23",
     "rxjs": "~7.8.1",
     "zone.js": "~0.14.10"
   },
